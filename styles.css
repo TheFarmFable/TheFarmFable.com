@@ -1,0 +1,76 @@
+html {
+            font-family: 'EB Garamond';
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        p {
+            
+            line-height: 0;
+            font-size: 15px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        img {
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .mountain {
+            max-width: 600px;
+            width: 60%;
+        }
+        .title {
+            max-width: 600px;
+            width: 80%;
+        }
+        a {
+            margin-top: 1rem;
+            color: black;
+        }
+        .buttons {
+            max-width: 90%;
+            display: flex;
+            justify-content: center;
+            gap: 0.1rem 0.8rem;
+            flex-wrap: wrap;
+        }
+        
+        .button {
+            color: #111111; /* Dark text */
+            border: 1px solid #FF8000; /* Slightly darker orange border */
+            border-radius: 4px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline for links */
+            display: inline-block; /* Allow padding and sizing */
+            transition: background-color 0.2s ease; /* Smooth hover effect */
+        }
+        .light {
+            background-color: #ffffff;
+        }
+
+        .light:hover {
+            background-color: #F7CA00; /* Lighter orange on hover */
+        }
+        .dark {
+            background-color: #FF9900; /* Amazon's orange */
+        }
+
+        .dark:hover {
+            background-color: #F7CA00; /* Lighter orange on hover */
+        }
+        .inactive {
+            background-color: #bbb; /* Amazon's orange */
+            border: 1px solid #bbb;
+            color: #888;
+            cursor: default;
+        }

@@ -8,61 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <title>The Farm</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        p {
-            font-family: 'EB Garamond';
-            line-height: 0;
-            font-size: 20px;
-        }
-        img {
-            max-width: 600px;
-            width: 80%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        a {
-            margin-top: 1rem;
-            color: black;
-        }
-        button {
-            display: inline-flex;
-            align-items: center;    /* vertical centering */
-            justify-content: center; /* horizontal centering (optional) */
-            gap: 0.5em;              /* space between icon & text */
-            outline: 0;
-            border: none;
-            cursor: pointer;
-            font-weight: 800;
-            border-radius: 8px;
-            font-size: 15px;
-            height: 30px;
-            background-color: #f5f5f5;
-            color: #0e0e10;
-            padding: 0 20px;
-        }
-        button:hover {
-            background-color: #e5e5e5;
-        }
-                
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <img class="mountain" src="img/mountain.png">
     <picture>
-        <img src="img/Title2.png" alt="Responsive Image">
+        <img class="title" src="img/Title2.png" alt="The Farm Title">
     </picture>
-    <br>
-    <p>Written by Enzo Marc</p>
-    <p>Illustrated by Charles Robert Smith</p>
-    <br><br>
-    <p>Coming Soon...</p>
+    <p>Written by Enzo Marc, Illustrated by Charles Robert Smith</p>
+    <h3>Available August 13, 2025</h3>
+    
+    <div class="buttons">
+        <!--
+        You've found it!
+
+        If you're the first person to send the phrase "Noah the Sheepdog" to hello@charliesmith.design, you will win a free copy of The Farm.
+        
+        Dev notes---
+        On Aug 13:
+        - delete disabled <a> tag
+        - change amazon link to light class
+        - uncomment ingram link
+        -->
+        
+        
+        <a href="" class="button inactive"> Order Direct via Publisher</a>
+        <!--
+        <a href="https://shop.ingramspark.com/b/084?params=8ylO8Z2RfuAnFk8IcFP1jmx1hmGtbAq8cBZtz0OgwYd" target="_blank" class="button inactive"> Order Direct via Publisher</a>
+        -->
+        <a href="https://a.co/d/i0iAcjh" target="_blank" class="button dark"> Pre-Order on Amazon</a>
+    </div>
 </body>
 </html>
